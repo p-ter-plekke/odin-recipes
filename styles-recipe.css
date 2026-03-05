@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CDD0DB;
+}
+
+header ul {
+    list-style: none;
+    text-align: center;
+    background-color: #9197AA;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.lasagne-recipe h1,
+.lasagne-recipe p,
+.lasagne-recipe img,
+.details-lasagne h2 {
+    margin-bottom: 20px;
+}
+
+.lasagne-recipe {
+    width: 800px;
+    margin: 0 auto 40px;
+}
+
+.lasagne-details {
+    text-align: center;
+}
+
+.ingredients-lasagne,
+.steps-lasagne {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+}
+
+.lasagne-recipe img {
+    width: 100%;
+}
